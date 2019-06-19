@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:menu_resto/src/inscription.dart';
 import 'package:menu_resto/src/userInterFace/PasserCommande.dart';
 import 'package:menu_resto/src/userInterFace/ProfilUser.dart';
-import 'package:menu_resto/src/userInterFace/Restaurant.dart';
+import 'package:menu_resto/src/adminInterface/Restaurant.dart';
 import 'package:menu_resto/src/authentification.dart';
 import 'package:menu_resto/src/userInterFace/listeRestaurant.dart';
 import 'package:menu_resto/src/models/restaurant.dart';

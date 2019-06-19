@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:menu_resto/src/userManager/inscription.dart';
-import 'package:menu_resto/src/userInterFace/Restaurant.dart';
+import 'package:menu_resto/src/adminInterface/Restaurant.dart';
 import 'package:menu_resto/src/app.dart';
 import 'package:menu_resto/src/userInterFace/listeRestaurant.dart';
 
