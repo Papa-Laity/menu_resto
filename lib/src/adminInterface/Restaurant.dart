@@ -45,7 +45,7 @@ class Restaurant extends StatelessWidget {
                 leading: const Icon(Icons.home),
                 title: Text('Reglages'),
                 onTap: () =>
-                    Navigator.pushReplacement(context, MaterialPageRoute(
+                    Navigator.push(context, MaterialPageRoute(
                       builder: (
                               (BuildContext context) =>App()
                               //Accueil(this.etudiants,this.articles)
@@ -57,7 +57,7 @@ class Restaurant extends StatelessWidget {
                 leading: const Icon(Icons.settings_applications),
                 title: Text('Se Deconnecter'),
                 onTap: () =>
-                    Navigator.push(context, MaterialPageRoute(
+                    Navigator.pushReplacement(context, MaterialPageRoute(
                       builder: (
                               (BuildContext context) =>
                               App()
